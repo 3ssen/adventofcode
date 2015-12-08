@@ -45,5 +45,36 @@ namespace day_2_ex_1
             }
             tbResult.Text = papersize.ToString();
         }
+
+        private void btnCalculateRibbonsize_Click(object sender, EventArgs e)
+        {
+            List<Present> presents = new List<Present>();
+            int ribbonsize = 0;
+            string line;
+            StreamReader sr = new StreamReader(@"..\..\input.txt");
+            while ((line = sr.ReadLine()) != null)
+            {
+                var obj = line.Split(new char[] { 'x' });
+                Present pst = new Present();
+                pst.width = int.Parse(obj[0].ToString());
+                pst.depth = int.Parse(obj[1].ToString());
+                pst.height = int.Parse(obj[2].ToString());
+                presents.Add(pst);
+            }
+
+            foreach (var item in presents)
+            {
+                int[] sides = new int[3];
+                sides[0] = 2 * item.width;
+                sides[1] = 2 * item.depth;
+                sides[2] = 2 * item.height;
+
+                int[] sortedSides = sides.OrderBy(i => i).ToArray();
+                int small1 = sortedSides[0];
+                int small2 = sortedSides[1];
+                ribbonsize = ribbonsize + (item.width * item.depth * item.height) + small1 + small2;
+            }
+            tbRibbonResult.Text = ribbonsize.ToString();
+        }
     }
 }
