@@ -1,0 +1,9 @@
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\bin\Debug\day_2_ex_1.exe.config
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\bin\Debug\day_2_ex_1.exe
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\bin\Debug\day_2_ex_1.pdb
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.csprojResolveAssemblyReference.cache
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.Form1.resources
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.Properties.Resources.resources
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.csproj.GenerateResource.Cache
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.exe
+C:\ontwikkeling\Advent_Of_Code\day_2_ex_1\obj\Debug\day_2_ex_1.pdb
