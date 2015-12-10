@@ -1,0 +1,6 @@
+C:\ontwikkeling\Advent_Of_Code\Day_5\bin\Debug\Day_5.exe.config
+C:\ontwikkeling\Advent_Of_Code\Day_5\bin\Debug\Day_5.exe
+C:\ontwikkeling\Advent_Of_Code\Day_5\bin\Debug\Day_5.pdb
+C:\ontwikkeling\Advent_Of_Code\Day_5\obj\Debug\Day_5.csprojResolveAssemblyReference.cache
+C:\ontwikkeling\Advent_Of_Code\Day_5\obj\Debug\Day_5.exe
+C:\ontwikkeling\Advent_Of_Code\Day_5\obj\Debug\Day_5.pdb
