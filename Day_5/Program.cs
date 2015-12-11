@@ -12,7 +12,7 @@ namespace Day_5
         static void Main(string[] args)
         {
             Console.WriteLine("Exercise1");
-            //Exercise1();
+            Exercise1();
             Console.WriteLine("Exercise2");
             Exercise2();
             Console.ReadLine();
@@ -90,7 +90,7 @@ namespace Day_5
                             }
                             else
                             {
-                                first = second;
+                                first = temp.IndexOf(unique, first + 1);
                             }
 
                         }
@@ -115,47 +115,7 @@ namespace Day_5
                 }                        
                 
             }
-            Console.WriteLine("result 2: " + numberOfNiceStrings.ToString() + " number of nice strings");
-            //54 to low
-            //76 to high
-
-            var good = 0;
-            var bad = 0;
-            string str;
-            StreamReader sr2 = new StreamReader(@"..\..\input.txt");
-            while ((str = sr2.ReadLine()) != null)
-            
-                {
-                bool pair = false;
-                bool repeat = false;
-
-                for (int i = 0; i < str.Length - 2; i++)
-                {
-                    if (!pair && i < str.Length - 3 && str.IndexOf(str.Substring(i, 2), i + 2) > 0)
-                    {
-                        pair = true;
-                        if (repeat)
-                            break;
-                    }
-                    if (!repeat && (str[i + 2] == str[i]))
-                    {
-                        repeat = true;
-                        if (pair)
-                            break;
-                    }
-                }
-                if (pair && repeat)
-                {
-                    good++;
-                }
-                else
-                {
-                    bad++;
-                }
-            }
-
-            Console.WriteLine("Total: {0}", good);
+            Console.WriteLine("result 2: " + numberOfNiceStrings.ToString() + " nice strings");
         }
-
     }
 }
